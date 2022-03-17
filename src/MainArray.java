@@ -4,6 +4,7 @@ public class MainArray {
     public static void main(String[] args) {
 
         Integer[][] quadrad = {{1, 9, 5, 16}, {8, 3, 4, 15}, {7, 2, 6, 14}, {13, 12, 11, 10}};
+
         int magicNum = 0;
 
         for (int i = 1; i < quadrad.length * quadrad.length +1; i++) {
